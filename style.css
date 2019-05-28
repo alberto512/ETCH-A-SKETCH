@@ -1,0 +1,42 @@
+html, body{
+  margin:0px;
+  height:100%;
+  background-color: grey;
+}
+
+#buttons{
+  justify-content: center;
+  display: flex;
+  margin: 25px;
+}
+
+#button_clear{
+  width: 125px;
+  height: 50px;
+  margin-right: 75px;
+}
+
+#button_changeGrid{
+  width: 125px;
+  height: 50px;
+  margin-left: 75px;
+}
+
+#button_changeColor{
+  width: 125px;
+  height: 50px;
+}
+
+#grid{
+  justify-content: center;
+  display: flex;
+}
+
+#squares{
+  height: 525px;
+  width: 525px;
+  border: 2px solid;
+  display: grid;
+  gap: 1px;
+  background-color: white;
+}
